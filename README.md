@@ -1,0 +1,2 @@
+# HippoType
+A MonekyType clone
