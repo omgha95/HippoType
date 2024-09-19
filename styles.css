@@ -124,3 +124,16 @@ div.word {
 #game:focus #cursor {
   display: block;
 }
+
+#game.over #words {
+  opacity: 0.5;
+  filter: blur(0);
+}
+
+#game.over:focus #cursor {
+  display: none;
+}
+
+#game.over #focus-error {
+  display: none;
+}
